@@ -3,83 +3,37 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Shamskhan45 - Student Portfolio</title>
+<title>Shams Khan - Portfolio</title>
 <style>
-*{margin:0;padding:0;box-sizing:border-box;font-family: 'Segoe UI', sans-serif;}
-body{background:#0f172a;color:#fff;line-height:1.6;}
-header{padding:20px 10%;display:flex;justify-content:space-between;align-items:center;background:#1e293b;position:sticky;top:0;}
-.logo{font-size:24px;font-weight:bold;color:#38bdf8;}
-.logo span{color:#fff;}
-nav a{color:#cbd5e1;text-decoration:none;margin-left:20px;}
-.hero{padding:80px 10%;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;}
-.hero-text{flex:1;min-width:280px;}
-.hero-text h1{font-size:48px;line-height:1.2;}
-.hero-text h1 span{color:#38bdf8;}
-.hero-text p{color:#94a3b8;margin:20px 0;font-size:18px;}
-.btn{background:#38bdf8;color:#0f172a;padding:12px 28px;border:none;border-radius:8px;font-weight:bold;text-decoration:none;display:inline-block;margin-top:10px;}
-.hero-img{flex:1;min-width:280px;text-align:center;}
-.hero-img div{width:260px;height:260px;background:linear-gradient(135deg,#38bdf8,#818cf8);border-radius:50%;margin:auto;display:flex;align-items:center;justify-content:center;font-size:80px;}
-section{padding:60px 10%;}
-.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;margin-top:20px;}
-.card{background:#1e293b;padding:25px;border-radius:12px;border:1px solid #334155;}
-.card h3{color:#38bdf8;margin-bottom:10px;}
-footer{text-align:center;padding:30px;background:#1e293b;color:#64748b;margin-top:40px;}
+body{margin:0;font-family:Arial;background:#f1f5f9}
+.header{background:#0f172a;color:white;padding:15px 25px;display:flex;justify-content:space-between;align-items:center}
+.hero{background:#0f172a;color:white;padding:50px 25px;display:flex;gap:30px;align-items:center;flex-wrap:wrap}
+.hero img{width:170px;height:170px;border-radius:50%;border:4px solid #38bdf8;object-fit:cover}
+.btn{background:#38bdf8;color:#0f172a;padding:10px 20px;border-radius:8px;text-decoration:none;font-weight:bold}
+.content{max-width:900px;margin:auto;padding:20px}
+.card{background:white;padding:20px;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,0.1);margin:10px;flex:1;min-width:250px}
+.flex{display:flex;flex-wrap:wrap}
 </style>
 </head>
 <body>
-<header>
-<div class="logo">Shamskhan<span>45</span></div>
-<nav><a href="#about">About</a><a href="#skills">Skills</a><a href="#contact">Contact</a></nav>
-</header>
-
+<div class="header"><b>SHAMS KHAN</b><span>Portfolio</span></div>
 <div class="hero">
-<div class="hero-text">
-<h1>Hi, I'm <span>Shams Khan</span><br>Student & Learner</h1>
-<p>I'm a passionate student from Pakistan, learning Web Development and building my future in technology. Welcome to my personal portfolio.</p>
-<a href="#contact" class="btn">Contact Me</a>
+<img src="profile.jpg" alt="Shams Khan">
+<div>
+<h1 style="margin:0;font-size:38px">Shams Khan</h1>
+<p>10th Class Student | Future Computer Scientist | Dera Ismail Khan</p>
+<a class="btn" href="mailto:armankhanqw112@gmail.com">Contact Me</a>
 </div>
-<div class="hero-img"><div>SK</div></div>
 </div>
-
-<section id="about">
+<div class="content">
 <h2>About Me</h2>
-<div class="card-grid">
-<div class="card">
-<h3>🎓 Education</h3>
-<p>Currently a dedicated student, focused on learning modern technologies and improving my skills every day.</p>
+<p>I am Shams Khan, a dedicated 10th class student from Dera Ismail Khan with a strong passion for technology and computer science. My goal is to become a skilled computer scientist and contribute to innovative solutions.</p>
+<div class="flex">
+<div class="card"><h3>🎓 Education</h3><p>Currently in 10th Grade<br>Dera Academy, DI Khan<br>Focus: Science & Computer</p></div>
+<div class="card"><h3>🎯 Goal</h3><p>Computer Science Degree<br>Learn Programming & Web Dev<br>Become Software Engineer</p></div>
+<div class="card"><h3>📍 Contact</h3><p>DI Khan, KPK, Pakistan<br>armankhanqw112@gmail.com</p></div>
 </div>
-<div class="card">
-<h3>💡 Goal</h3>
-<p>My goal is to become a professional Web Developer and create amazing websites that help people.</p>
+<p style="text-align:center;margin-top:30px;color:gray">© 2026 Shams Khan</p>
 </div>
-<div class="card">
-<h3>📍 From</h3>
-<p>Dera Ismail Khan, Khyber Pakhtunkhwa, Pakistan.</p>
-</div>
-</div>
-</section>
-
-<section id="skills">
-<h2>My Skills</h2>
-<div class="card-grid">
-<div class="card"><h3>HTML & CSS</h3><p>Building beautiful website designs.</p></div>
-<div class="card"><h3>Learning GitHub</h3><p>Managing my code professionally.</p></div>
-<div class="card"><h3>Hard Working</h3><p>Always ready to learn new things.</p></div>
-</div>
-</section>
-
-<section id="contact">
-<h2>Contact Me</h2>
-<div class="card-grid">
-<div class="card">
-<h3>Let's Connect</h3>
-<p>GitHub: github.com/Shamskhan45/Shamskhan</p>
-<p style="margin-top:15px;">Email: Add your email here</p>
-<p>WhatsApp: Add your number here</p>
-</div>
-</div>
-</section>
-
-<footer>© 2026 Shamskhan45 | Made with ❤️ by Shams Khan</footer>
 </body>
 </html>
