@@ -1,12 +1,85 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-   <title>Shams Khan</title>
-   </head>
-   <body>
-    <h1>Wellcome to Shams Khan Website!</h1>
-    <p>My name is Shams.</p>
-    <h2>About Me</h2>
-    <p>I am learning Website Development .</p>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shamskhan45 - Student Portfolio</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family: 'Segoe UI', sans-serif;}
+body{background:#0f172a;color:#fff;line-height:1.6;}
+header{padding:20px 10%;display:flex;justify-content:space-between;align-items:center;background:#1e293b;position:sticky;top:0;}
+.logo{font-size:24px;font-weight:bold;color:#38bdf8;}
+.logo span{color:#fff;}
+nav a{color:#cbd5e1;text-decoration:none;margin-left:20px;}
+.hero{padding:80px 10%;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;}
+.hero-text{flex:1;min-width:280px;}
+.hero-text h1{font-size:48px;line-height:1.2;}
+.hero-text h1 span{color:#38bdf8;}
+.hero-text p{color:#94a3b8;margin:20px 0;font-size:18px;}
+.btn{background:#38bdf8;color:#0f172a;padding:12px 28px;border:none;border-radius:8px;font-weight:bold;text-decoration:none;display:inline-block;margin-top:10px;}
+.hero-img{flex:1;min-width:280px;text-align:center;}
+.hero-img div{width:260px;height:260px;background:linear-gradient(135deg,#38bdf8,#818cf8);border-radius:50%;margin:auto;display:flex;align-items:center;justify-content:center;font-size:80px;}
+section{padding:60px 10%;}
+.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;margin-top:20px;}
+.card{background:#1e293b;padding:25px;border-radius:12px;border:1px solid #334155;}
+.card h3{color:#38bdf8;margin-bottom:10px;}
+footer{text-align:center;padding:30px;background:#1e293b;color:#64748b;margin-top:40px;}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">Shamskhan<span>45</span></div>
+<nav><a href="#about">About</a><a href="#skills">Skills</a><a href="#contact">Contact</a></nav>
+</header>
+
+<div class="hero">
+<div class="hero-text">
+<h1>Hi, I'm <span>Shams Khan</span><br>Student & Learner</h1>
+<p>I'm a passionate student from Pakistan, learning Web Development and building my future in technology. Welcome to my personal portfolio.</p>
+<a href="#contact" class="btn">Contact Me</a>
+</div>
+<div class="hero-img"><div>SK</div></div>
+</div>
+
+<section id="about">
+<h2>About Me</h2>
+<div class="card-grid">
+<div class="card">
+<h3>🎓 Education</h3>
+<p>Currently a dedicated student, focused on learning modern technologies and improving my skills every day.</p>
+</div>
+<div class="card">
+<h3>💡 Goal</h3>
+<p>My goal is to become a professional Web Developer and create amazing websites that help people.</p>
+</div>
+<div class="card">
+<h3>📍 From</h3>
+<p>Dera Ismail Khan, Khyber Pakhtunkhwa, Pakistan.</p>
+</div>
+</div>
+</section>
+
+<section id="skills">
+<h2>My Skills</h2>
+<div class="card-grid">
+<div class="card"><h3>HTML & CSS</h3><p>Building beautiful website designs.</p></div>
+<div class="card"><h3>Learning GitHub</h3><p>Managing my code professionally.</p></div>
+<div class="card"><h3>Hard Working</h3><p>Always ready to learn new things.</p></div>
+</div>
+</section>
+
+<section id="contact">
+<h2>Contact Me</h2>
+<div class="card-grid">
+<div class="card">
+<h3>Let's Connect</h3>
+<p>GitHub: github.com/Shamskhan45/Shamskhan</p>
+<p style="margin-top:15px;">Email: Add your email here</p>
+<p>WhatsApp: Add your number here</p>
+</div>
+</div>
+</section>
+
+<footer>© 2026 Shamskhan45 | Made with ❤️ by Shams Khan</footer>
 </body>
 </html>
